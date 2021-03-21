@@ -1,0 +1,32 @@
+#cards{
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    flex-wrap: wrap;
+}
+#cards .card{
+    height: 242px;
+    display: flex;
+    flex-flow: column;
+    width: 19%;
+    align-items: center;
+    background-color: rgb(255 153 0);
+    border-radius: 19px;
+    margin-top: 19px;
+}
+#cards .card:hover{
+    height: 248px;
+    width: 20%;
+    background-color:rgb(255 153 0) ;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+#cards .card h1{
+    color: white;
+    font-weight: 200;
+    background-color: #ff9900;
+    
+}
+#cards .card img{
+    padding: 8px;
+}

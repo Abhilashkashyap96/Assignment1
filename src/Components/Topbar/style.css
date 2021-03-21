@@ -1,0 +1,34 @@
+#navbar{
+    background-color: rgb(255 216 158);;
+    height: 60px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar img{
+    height: 55px;
+    background-color: rgb(255 216 158);;
+}
+#navbar #btn{
+    height: 37px;
+    border-radius: 10px;
+    background-color: #ff9900;
+    margin: 0 80px 0 0;
+    width: 105px;
+    color: white;
+    font-weight: 500;
+    outline: none;
+}
+#navbar #btn:hover{
+    height: 40px;
+    width: 109px;
+    cursor: pointer;
+    background-color: #fc9700;
+    transition: 0.3s;
+}
+#navbar #btn:active{
+    background-color: rgb(219, 143, 0);
+}
+#navbar #btn:visited{
+    background-color: rgb(252, 197, 96);
+}
